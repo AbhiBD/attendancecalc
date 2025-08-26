@@ -35,7 +35,7 @@ attendance_calculator/
 
 2. Follow the prompts to enter the subject name, total number of classes, and required attendance percentage.
 
-3. The application will display your current attendance and the number of classes you need to attend to meet the required attendance percentage.
+3. The application will display the total number of classes required to achieve the desired attendance, current attendance and the number of classes you need to attend to meet the required attendance percentage.
 
 ## Contributing
 
