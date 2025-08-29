@@ -15,3 +15,15 @@ def get_required_classes(total_classes, required_percentage):
     required_classes = (required_percentage / 100) * total_classes
     required_classes = int(math.ceil(required_classes))
     return max(0, required_classes)
+
+def get_missable_classes(total_classes,attended_classes, required_percentage,missed_classes):
+    required_classes = (required_percentage / 100) * total_classes
+    classes_needed = required_classes - attended_classes
+    classes_needed = int(math.ceil(classes_needed))
+    missable_classes = total_classes-classes_needed-attended_classes-missed_classes
+    if missable_classes >= 0:
+        
+        return(max(0, missable_classes))
+    
+    else:
+        return -1
