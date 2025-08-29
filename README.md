@@ -21,9 +21,9 @@ attendance_calculator/
    cd attendance_calculator
    ```
 
-2. Install the required dependencies:
+2. No installation of additional dependencies is required 
    ```
-   pip install -r requirements.txt
+   Just clone, and run!
    ```
 
 ## Usage
